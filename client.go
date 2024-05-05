@@ -3,11 +3,10 @@ package fdfs_client
 import (
 	"errors"
 	"fmt"
+	"github.com/sirupsen/logrus"
 	"runtime"
 	"strconv"
 	"strings"
-
-	"github.com/Sirupsen/logrus"
 )
 
 var (
